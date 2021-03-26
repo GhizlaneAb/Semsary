@@ -1,0 +1,107 @@
+scroll-behavior: smooth;
+body{
+    padding: 0px;
+}
+.nav-item:hover{
+  background-color: blue;  
+  border-radius: 10px;
+}
+#announce div{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#announce div:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#blog{
+    border: 0px solid gray;
+    background-color: rgb(209, 209, 209);
+}
+#blog >.card-group{
+    
+    padding:80px
+  
+}
+.wrapper {
+    height: 100vh;
+    background: #000;
+    background: url("imagelocation/image1.jpg");
+    background-size: cover;
+    width: 100%
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color: blue;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+
+.forms {
+    padding: 20px
+}
+
+.inputs input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid blue;
+    box-shadow: none
+}
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    resize: none
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid blue;
+    box-shadow: none;
+    resize: none
+}
+
+.form-control {
+    padding: .375rem .25rem
+}
+
+
